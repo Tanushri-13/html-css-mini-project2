@@ -61,8 +61,9 @@ function renderHabits() {
         tableBody.appendChild(row);
     });
 
-    updateOverallProgress(); // ✅ update when table is first rendered
+    updateOverallProgress(); 
 }
 
 renderHabits();
+
 
