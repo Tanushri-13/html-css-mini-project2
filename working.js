@@ -51,7 +51,7 @@ function renderHabits() {
 
             checkbox.addEventListener("change", () => {
                 habit.days[dayIndex] = checkbox.checked;
-                updateOverallProgress(); // ✅ update immediately when checkbox changes
+                updateOverallProgress(); 
             });
 
             dayCell.appendChild(checkbox);
@@ -65,3 +65,4 @@ function renderHabits() {
 }
 
 renderHabits();
+
